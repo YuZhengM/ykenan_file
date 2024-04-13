@@ -20,7 +20,7 @@ class StaticMethod:
     文件或者路径的静态方法
     """
 
-    def __init__(self, log_file: str = "YKenan_file", is_form_log_file: bool = True):
+    def __init__(self, log_file: str = "YKenan_file", is_form_log_file: bool = False):
         """
         file static method
         :param log_file: Path to form a log file
